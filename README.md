@@ -27,10 +27,10 @@ written answers. Note that there are some bugs in their assignment.
 To see how to use the system, create a temporary directory anywhere
 and run the following (assuming you put the git in `~/matlab-autograder`)
 
-```unix
-cp -r ~/matlab-autograder/* .  cp -r
-~/matlab-autograder/demo/grade/* .  cp -r
-~/matlab-autograder/demo/submit/* .
+```shell
+cp -r ~/matlab-autograder/* .  
+cp -r ~/matlab-autograder/demo/grade/* .  
+cp -r ~/matlab-autograder/demo/submit/* .
 ``` 
 
 At this point you now have, in order, copied the test framework, the
